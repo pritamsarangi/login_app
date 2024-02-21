@@ -49,6 +49,8 @@ class _loginState extends State<login> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        elevation: 20,
+        backgroundColor: Colors.deepPurple[300],
         title: Text('login'),
         centerTitle: true,
       ),
@@ -74,7 +76,7 @@ class _loginState extends State<login> {
                              return null;
                           },
                           decoration: InputDecoration(
-                            labelText: 'Login',
+                            labelText: 'Login-ID',
                             labelStyle: TextStyle(color: Colors.black),
                             prefixIcon: Icon(Icons.login),
                             prefixIconColor: Colors.black,
